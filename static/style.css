@@ -1,0 +1,177 @@
+/* Reset & base */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container {
+  background-color: #1e1e1e; /* Dark card background */
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.logo {
+  max-width: 280px;       /* increase max width to make logo bigger */
+  margin: 0 auto 0.1rem;  /* smaller bottom margin for less space */
+}
+
+h1 {
+  margin-top: 0rem;        /* removed top margin to move it upward */
+  margin-bottom: 0.8rem;   /* slight bottom margin for spacing from paragraph */
+  font-weight: 600;
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Subtitle */
+p {
+  margin: 0 0 2rem;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1.8px solid #444;
+  border-radius: 8px;
+  outline: none;
+  background-color: #2a2a2a;
+  color: #eee;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+input[type="text"]:focus {
+  border-color: #3a8ee6;
+  background-color: #333;
+}
+
+/* Button */
+button {
+  padding: 0.75rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #3a8ee6;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2c6ecc;
+}
+
+button:active {
+  background-color: #1f4f99;
+}
+
+/* Flash messages */
+.messages {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  user-select: none;
+}
+
+.success {
+  color: #d4edda;
+  background-color: #155724;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+}
+
+.error {
+  color: #f8d7da;
+  background-color: #721c24;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+}
+
+.warning {
+  color: #856404;
+  background-color: #fff3cd;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  color: #4a3d00;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #ccc;
+  padding: 2rem 1rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 3rem;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem 1rem;
+    max-width: 95vw;
+  }
+
+  .logo {
+    max-width: 180px;         /* Slightly scaled-down logo for mobile */
+    margin-bottom: 0.2rem;    /* Reduced space below logo */
+  }
+
+  h1 {
+    font-size: 1.4rem;        /* Smaller heading size for mobile */
+    margin-top: 0rem;         /* Removed top margin */
+    margin-bottom: 0.4rem;    /* Slightly more spacing below h1 */
+  }
+
+  p {
+    font-size: 0.9rem;
+    margin-top: 0;            /* No extra top margin */
+  }
+
+  input[type="text"] {
+    font-size: 0.95rem;
+    padding: 0.65rem 0.9rem;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 0.7rem 0;
+  }
+
+  .messages {
+    font-size: 0.85rem;
+  }
+
+  .footer {
+    font-size: 0.85rem;       /* Slightly smaller footer text */
+    padding: 1.5rem 0.5rem 1rem;
+  }
+}
