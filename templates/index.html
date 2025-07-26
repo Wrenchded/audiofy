@@ -27,6 +27,10 @@
       <button type="submit" aria-label="Download MP3 button">Download MP3</button>
     </form>
 
+    {% if download_link %}
+      <p class="success">✅ Download ready! <a href="{{ download_link }}" download>Click here to get your MP3</a></p>
+    {% endif %}
+
     <footer class="footer">
       <p>&copy; 2025 Audiofy. All rights reserved. | Built with ❤️ by Aditya</p>
     </footer>
