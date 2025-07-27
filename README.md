@@ -45,3 +45,13 @@ python app.py
 
 6. Open your browser and go to http://localhost:5000
 
+```
+
+📢 Disclaimer
+
+This project is intended for educational purposes only.
+Make sure to respect copyright laws and YouTube’s terms of service.
+
+📜 License
+
+This project is open-source and available under the MIT License.
