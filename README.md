@@ -30,3 +30,11 @@ cd your-repo-name
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3.	Install the required packages
+
+pip install -r requirements.txt
+
+4.	Install yt-dlp
+
+pip install yt-dlp
