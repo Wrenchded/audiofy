@@ -38,3 +38,10 @@ pip install -r requirements.txt
 4. Install yt-dlp
 
 pip install yt-dlp
+
+5. Run the Flask app
+
+python app.py
+
+6. Open your browser and go to http://localhost:5000
+
