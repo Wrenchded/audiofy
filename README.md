@@ -26,7 +26,7 @@ A clean, simple, and powerful web app to download high-quality MP3 audio from Yo
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
-2.	Create and activate a virtual environment (optional but recommended)
+2. Create and activate a virtual environment (optional but recommended)
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
