@@ -55,3 +55,8 @@ Make sure to respect copyright laws and YouTube’s terms of service.
 📜 License
 
 This project is open-source and available under the MIT License.
+
+🤝 Contribute
+
+Found a bug or want to improve something?
+Feel free to open a pull request or submit an issue. Contributions are welcome!
