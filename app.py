@@ -2,7 +2,12 @@ import yt_dlp
 from flask import Flask, render_template, request, send_from_directory, flash, url_for
 
 app = Flask(__name__)
-app.secret_key = 'd6c5ace5338988db865fd67de7bb1ec3'
+app.secret_key = '' # Generate your own secret key on any terminal (vscode terminal, mac terminal etc) and paste it! 
+
+"""
+here is the command to generate the secret key
+import secrets; print(secrets.token_hex(16)) ---> use this!
+"""
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
