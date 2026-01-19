@@ -21,7 +21,7 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
-#Notes
+## Notes
 
 This project is for educational purposes and skill demonstration only.
 Focus is on learning automation, APIs, and Python-based web app deployment.
