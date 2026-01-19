@@ -1,62 +1,27 @@
-# Audiofy - 🎵 YouTube to MP3 Downloader (Flask-based)
+# Audiofy – 🎵 Media Automation & API Learning Project (Flask + Python)
 
-A clean, simple, and powerful web app to download high-quality MP3 audio from YouTube videos using `yt-dlp`. Built with ❤️ using **Flask** and **Python**.
-
-## 🚀 Features
-
-- 🎧 Download audio from any YouTube video in MP3 format.
-- 📱 Mobile and tablet responsive UI.
-- ⚡ Fast performance powered by `yt-dlp`.
-- 🛡️ Minimal and secure codebase.
+A clean, simple, and powerful **media automation learning project** built to demonstrate workflow automation, API integration, and Flask deployment. Built with ❤️ using Python and Flask.
 
 ---
 
-## 🖥️ Demo
-
-> ⚠️ Due to policy restrictions on hosting platforms, deployment may be blocked.  
-> 💡 To try it out locally, follow the instructions below 👇
+## 🚀 Skills Demonstrated
+- Python programming and Flask web app development  
+- Workflow automation and file handling  
+- API integration and interaction with third-party libraries  
+- Responsive UI design for desktop, tablet, and mobile  
+- Deployment setup and virtual environment management  
 
 ---
 
-## 📦 Installation
+## 🖥️ How to Run Locally
 
-1. **Clone the repository**
-
+Clone the repository:  
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-
-2. Create and activate a virtual environment (optional but recommended)
-
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-3. Install the required packages
-
-pip install -r requirements.txt
-
-4. Install yt-dlp
-
-pip install yt-dlp
-
-5. Run the Flask app
-
-python app.py
-
-6. Open your browser and go to http://localhost:5000
-
 ```
 
-📢 Disclaimer
+#Notes
 
-This project is intended for educational purposes only.
-Make sure to respect copyright laws and YouTube’s terms of service.
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-🤝 Contribute
-
-Found a bug or want to improve something?
-Feel free to open a pull request or submit an issue. Contributions are welcome!
+This project is for educational purposes and skill demonstration only.
+Focus is on learning automation, APIs, and Python-based web app deployment.
